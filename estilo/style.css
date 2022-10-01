@@ -31,6 +31,12 @@ section#telefone {
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
 }
+
+section#redes .botao:hover {
+    transform: translate(-3px, -3px);
+    border: 2px solid white;
+}
+
 iframe#tela {
     position: relative;
     top: 80px;
@@ -49,5 +55,5 @@ section#redes img {
     border-radius: 50%;
     margin: 3px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.425);
-    text-align: right;
 }
+
