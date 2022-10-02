@@ -19,7 +19,7 @@ body {
 main {
     height: 100vh;
     position: relative;
-
+    
 }
 
 section#telefone {
@@ -35,8 +35,6 @@ section#telefone {
 section#redes .botao:hover {
     transform: translate(-3px, -3px);
     border: 2px solid white;
-    display: flex;
-    
 }
 
 iframe#tela {
@@ -50,7 +48,6 @@ iframe#tela {
 
 section#redes {
     text-align: right;
-
 }
 
 section#redes img {
@@ -59,4 +56,3 @@ section#redes img {
     margin: 3px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.425);
 }
-
